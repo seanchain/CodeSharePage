@@ -173,11 +173,14 @@ if(!isset($_SESSION['valid_user'])){
   </div>
 </header>
 
-<div class="am-g am-g-fixed blog-g-fixed">
+
+
+<br><br><br><br>
+<div class="am-g am-g-fixed blog-g-fixed am-sans-serif">
   <div class="am-u-md-8">
     <article class="blog-main">
       <h3 class="am-article-title blog-title">
-        <a href="#">Google fonts 的字體（display 篇）</a>
+        <a href="#">PresentWeb</a>
       </h3>
       <h4 class="am-article-meta blog-meta">by <a href="">open</a> posted on 2014/06/17 under <a href="#">字体</a></h4>
 
