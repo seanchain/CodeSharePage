@@ -37,64 +37,6 @@ if(!isset($_SESSION['valid_user'])){
         font-weight: bold;
         font-size:16px;
     }
-    .get {
-      background: url("./test.jpg");
-      color: white;
-      text-align: center;
-      padding: 100px 0;
-    }
-    
-    .whitetext{
-        color:white;
-    }
-
-    .get-title {
-      font-size: 200%;
-      border: 2px solid #fff;
-      padding: 20px;
-      display: inline-block;
-    }
-
-    .get-btn {
-      background: #fff;
-    }
-
-    .detail {
-      font-size: 15px;
-      background: #fff;
-    }
-
-    .detail-h2 {
-      text-align: center;
-      font-size: 150%;
-      margin: 40px 0;
-    }
-
-    .detail-h3 {
-      color: #1f8dd6;
-    }
-
-    .detail-p {
-      color: #7f8c8d;
-    }
-
-    .detail-mb {
-      margin-bottom: 30px;
-    }
-
-    .hope {
-      background: #1E5B94;
-      padding: 40px 0;
-    }
-
-    .hope-img {
-      text-align: center;
-    }
-
-    .hope-hr {
-      border-color: #149C88;
-    }
-
     .footer p {
       color: #7f8c8d;
       margin: 0;
@@ -174,35 +116,28 @@ if(!isset($_SESSION['valid_user'])){
 </header>
 
 
-
-<br><br><br><br>
+<br><br><br>
 <div class="am-g am-g-fixed blog-g-fixed am-sans-serif">
   <div class="am-u-md-8">
     <article class="blog-main">
       <h3 class="am-article-title blog-title">
         <a href="#">PresentWeb</a>
       </h3>
-      <h4 class="am-article-meta blog-meta">by <a href="">open</a> posted on 2014/06/17 under <a href="#">字体</a></h4>
+      <h4 class="am-article-meta blog-meta">by <a href="www.github.com/seanchain">Chen Sihang</a> posted on 2015/02/12 </h4>
 
       <div class="am-g blog-content">
         <div class="am-u-lg-7">
-          <p><!-- 本demo来自 http://blog.justfont.com/ -->你自信滿滿的跟客戶進行第一次 demo。秀出你精心設計的內容時，你原本期許客戶冷不防地掉下感動的眼淚。</p>
+          <p>在生活中，我们一定会遇到做Presentation的时候，而传统的Presentation软件例如微软的PPT，在现实方法上形式单一，灵活性不高。</p>
 
-          <p>因為那實在是太高級了。</p>
+          <p>impress.js为我们提供了一种新的解决方案。</p>
 
-          <p>除了各項基本架構幾乎完美無缺之外，內文是高貴的，有著一些距離感的，典雅的襯線字體。不是 Times New
-            Roman，而是很少有人見過的，你精心挑選過的字體，凸顯你品味的高超。而且它並沒有花上你與業主一毛錢，或許這也非常重要。</p>
+          <p>通过对HTML代码的书写，我们可以写出优秀的Web界面用于Presentation，初次以外，通过Markdown和代码语法的功能加入，我们可以写出更有创意的Presentation。</p>
         </div>
         <div class="am-u-lg-5">
-          <p><img src="Blog%20%7C%20Amaze%20UI%20Example_files/a.jpg"></p>
+          <p><img src="assets/codepic/a.png"></p>
         </div>
       </div>
       <div class="am-g">
-        <div class="am-u-sm-12">
-          <p>看著自己的作品，你的喜悅之情溢於言表，差點就要說出我要感謝我的父母之類的得獎感言。但在你對面的客戶先是一點表情也沒有，又瞬間轉為陰沉，抿了抿嘴角冷冷的說……</p>
-
-          <p>「我要一種比較跳的感覺懂嗎？」</p>
-        </div>
       </div>
     </article>
 
