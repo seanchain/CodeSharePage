@@ -121,9 +121,9 @@ if(!isset($_SESSION['valid_user'])){
   <div class="am-u-md-8">
     <article class="blog-main">
       <h3 class="am-article-title blog-title">
-        <a href="#">PresentWeb</a>
+        <a href="#">PresentWeb:HTML5展示工具</a>
       </h3>
-      <h4 class="am-article-meta blog-meta">by <a href="www.github.com/seanchain">Chen Sihang</a> posted on 2015/02/12 </h4>
+      <h4 class="am-article-meta blog-meta">by <a href="http://www.github.com/seanchain">Chen Sihang</a> posted on 2015/02/12 </h4>
 
       <div class="am-g blog-content">
         <div class="am-u-lg-7">
@@ -131,7 +131,7 @@ if(!isset($_SESSION['valid_user'])){
 
           <p>impress.js为我们提供了一种新的解决方案。</p>
 
-          <p>通过对HTML代码的书写，我们可以写出优秀的Web界面用于Presentation，初次以外，通过Markdown和代码语法的功能加入，我们可以写出更有创意的Presentation。</p>
+          <p>通过对HTML代码的书写，利用HTML5和JavaScript，我们可以写出优秀的Web界面用于Presentation，初次以外，通过Markdown和代码语法的功能加入，我们可以写出更有创意的Presentation。</p>
         </div>
         <div class="am-u-lg-5">
           <p><img src="assets/codepic/a.png"></p>
@@ -183,47 +183,19 @@ if(!isset($_SESSION['valid_user'])){
   <div class="am-u-md-4 blog-sidebar">
     <div class="am-panel-group">
       <section class="am-panel am-panel-default">
-        <div class="am-panel-hd">关于我</div>
+        <div class="am-panel-hd">关于开发者</div>
         <div class="am-panel-bd">
-          <p>前所未有的中文云端字型服务，让您在 web 平台上自由使用高品质中文字体，跨平台、可搜寻，而且超美。云端字型是我们的事业，推广字型学知识是我们的志业。从字体出发，关心设计与我们的生活，justfont blog
-            正是為此而生。</p>
-          <a class="am-btn am-btn-success am-btn-sm" href="#">查看更多 →</a>
+          <p>开发者为四川大学软件学院2013级的学生，在当代，越来越多的开源项目正在让计算机或者说软件行业逐步发展进步，而网站设立的初衷正是于此，我会把我自己写的和觉得写得比较好的开源项目分享出来，供大家一起学习、探讨、进步。</p>
+            <p>联系方式：见我的 <a href="./aboutDeveloper.php">Profile</a></p>
+            <p>或直接在站内给我反馈 <a href="./feedback.php">Feedback</a></p>
+          <a class="am-btn am-btn-success am-btn-sm" href="./index.php">查看更多 →</a>
         </div>
       </section>
       <section class="am-panel am-panel-default">
-        <div class="am-panel-hd">文章目录</div>
+        <div class="am-panel-hd">项目目录</div>
         <ul class="am-list blog-list">
-          <li><a href="#">Google fonts 的字體（sans-serif 篇）</a></li>
-          <li><a href="#">[but]服貿最前線？－再訪桃園機場</a></li>
-          <li><a href="#">到日星鑄字行學字型</a></li>
-          <li><a href="#">glyph font vs. 漢字（上）</a></li>
-          <li><a href="#">浙江民間書刻體上線</a></li>
-          <li><a href="#">[極短篇] Android v.s iOS，誰的字體好讀？</a></li>
+          <li><a href="#">PresentWeb:HTML5展示工具</a></li>
         </ul>
-      </section>
-
-      <section class="am-panel am-panel-default">
-        <div class="am-panel-hd">团队成员</div>
-        <div class="am-panel-bd">
-          <ul class="am-avg-sm-4 blog-team">
-            <li><img class="am-thumbnail" src="Blog%20%7C%20Amaze%20UI%20Example_files/20140615230220_F5LiM.jpg" alt="">
-            </li>
-            <li><img class="am-thumbnail" src="Blog%20%7C%20Amaze%20UI%20Example_files/20140615230220_F5LiM.jpg" alt="">
-            </li>
-            <li><img class="am-thumbnail" src="Blog%20%7C%20Amaze%20UI%20Example_files/20140615230220_F5LiM.jpg" alt="">
-            </li>
-            <li><img class="am-thumbnail" src="Blog%20%7C%20Amaze%20UI%20Example_files/20140615230220_F5LiM.jpg" alt="">
-            </li>
-            <li><img class="am-thumbnail" src="Blog%20%7C%20Amaze%20UI%20Example_files/20140615230159_kjTmC.jpg" alt="">
-            </li>
-            <li><img class="am-thumbnail" src="Blog%20%7C%20Amaze%20UI%20Example_files/20140615230220_F5LiM.jpg" alt="">
-            </li>
-            <li><img class="am-thumbnail" src="Blog%20%7C%20Amaze%20UI%20Example_files/20140615230220_F5LiM.jpg" alt="">
-            </li>
-            <li><img class="am-thumbnail" src="Blog%20%7C%20Amaze%20UI%20Example_files/20140615230159_kjTmC.jpg" alt="">
-            </li>
-          </ul>
-        </div>
       </section>
     </div>
   </div>
