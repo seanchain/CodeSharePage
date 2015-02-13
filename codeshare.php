@@ -1,12 +1,11 @@
 <?php 
 session_start();
-/*
+
 if(!isset($_SESSION['valid_user'])){
     echo '<script>alert("请先登录再查看代码");</script>';
     echo '<script>window.location.href="http://www.chensihang.com/login.php"</script>';
     exit;
 }
-*/
 ?>
 <!DOCTYPE html>
 <html>
@@ -145,40 +144,34 @@ if(!isset($_SESSION['valid_user'])){
 
     <article class="blog-main">
       <h3 class="am-article-title">
-        <a href="#">身邊的字體: Arial (上)</a>
+        <a href="#">SCU_ScoreCounter:四川大学在线成绩查询</a>
       </h3>
-      <h4 class="am-article-meta blog-meta">by <a href="">ben</a> posted on 2014/06/17 under <a href="#">javascript</a>
+      <h4 class="am-article-meta blog-meta">by <a href="">Chen Sihang</a> posted on 2015/02/13
       </h4>
 
       <div class="am-g blog-content">
         <div class="am-u-lg-7">
-          <p><!--本demo文字来自 http://blog.justfont.com/--> 这次要介绍的是大家似乎都狠熟悉却又狠陌生的字体：Arial。不只是对 Typography
-            特别有兴趣的人、碰过排版的人，就算毫无接触，只要打开过电脑的字型选单，应该都有看过这个字型吧。尤其它还是以 A 开头，总是会出现在选单最前面。</p>
-
-          <p>Arial 常常跟 Helvetica 搞混，也常被当作是没有 Helvetica 时的替代字体使用。事实上 Arial 确实就是故意做得跟 Helvetica 狠相似，连每个字母的宽度都刻意做得一模一样。</p>
+            <p>大家可能遇到过这样的情况：每学期考试结束之后，等待趁机揭晓似乎成了一件让人心烦的事情，一是学校的教务处系统成绩查询起来相当不变，并且并没有针对性的显示出成绩的绩点和加权平均，大家无法知道自己这一学期的成绩水平，除此以外，成绩单不能直接保存也给大家带来了些许不变。</p>
+          <p>而这个项目的出发点就是通过大家输入的学号和密码去一键查找自己的成绩，并且计算出大家的加权平均分和绩点，显示出来,并提供成绩的PDF转换和下载功能，只要服务器端部署了wkhtmltopdf环境，即可轻松将原网页转化为PDF，供用户下载。</p>
         </div>
         <div class="am-u-lg-5">
-          <p><img src="Blog%20%7C%20Amaze%20UI%20Example_files/14186214720_5d0b8ca2e3_b.jpg"></p>
+          <p><img src="assets/codepic/b.png"></p>
         </div>
       </div>
       <div class="am-g">
         <div class="am-u-sm-12">
-          <p>在欧美的排版业界中，使用 Arial 的作品意即是「不使用 Helvetica 的作品」，会被认為是设计师对字体的使用没有概念或是太容易妥协，基本上我大致也是同意。</p>
-
-          <p>因為 Helvetica 只有 Mac 上才有內建，Windows 用戶除非花錢買，不然是沒有 Helvetica 能用，所以使用 Arial 的設計師往往被看成是不願意對 Typography
-            花錢，專業素養不到家的人。除了在確保網頁相容性等絕對必需的情況外，幾乎可以說是不應該使用的字體。</p>
-
-          <p>但是，在此之前，我們對 Arial 又有多少認識呢？</p>
+          <p>项目采用了PHP、simple_html_dom和wkhtmltopdf等开发工具，并使用了Amazeui的前端开发框架，功能在线演示<a href="www.chensihang.com/jwc">点此</a></p>
         </div>
       </div>
     </article>
-
+<!--
     <hr class="am-article-divider blog-hr">
     <ul class="am-pagination blog-pagination">
       <li class="am-pagination-prev"><a href="">« 上一页</a></li>
       <li class="am-pagination-next"><a href="">下一页 »</a></li>
     </ul>
   </div>
+  -->
 
   <div class="am-u-md-4 blog-sidebar">
     <div class="am-panel-group">
@@ -195,6 +188,7 @@ if(!isset($_SESSION['valid_user'])){
         <div class="am-panel-hd">项目目录</div>
         <ul class="am-list blog-list">
           <li><a href="#">PresentWeb:HTML5展示工具</a></li>
+          <li><a href="#">SCU_ScoreCounter:四川大学在线成绩查询</a></li>
         </ul>
       </section>
     </div>
