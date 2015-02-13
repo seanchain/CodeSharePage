@@ -120,7 +120,7 @@ if(!isset($_SESSION['valid_user'])){
   <div class="am-u-md-8">
     <article class="blog-main">
       <h3 class="am-article-title blog-title">
-        <a href="#">PresentWeb:HTML5展示工具</a>
+        <a href="https://coding.net/u/seanchain/p/PresentWeb/git">PresentWeb:HTML5展示工具</a>
       </h3>
       <h4 class="am-article-meta blog-meta">by <a href="http://www.github.com/seanchain">Chen Sihang</a> posted on 2015/02/12 </h4>
 
@@ -144,7 +144,7 @@ if(!isset($_SESSION['valid_user'])){
 
     <article class="blog-main">
       <h3 class="am-article-title">
-        <a href="#">SCU_ScoreCounter:四川大学在线成绩查询</a>
+        <a href="https://coding.net/u/seanchain/p/SCU_ScoreCounter/git">SCU_ScoreCounter:四川大学在线成绩查询</a>
       </h3>
       <h4 class="am-article-meta blog-meta">by <a href="">Chen Sihang</a> posted on 2015/02/13
       </h4>
@@ -164,14 +164,14 @@ if(!isset($_SESSION['valid_user'])){
         </div>
       </div>
     </article>
-<!--
+
     <hr class="am-article-divider blog-hr">
     <ul class="am-pagination blog-pagination">
       <li class="am-pagination-prev"><a href="">« 上一页</a></li>
       <li class="am-pagination-next"><a href="">下一页 »</a></li>
     </ul>
   </div>
-  -->
+  
 
   <div class="am-u-md-4 blog-sidebar">
     <div class="am-panel-group">
@@ -187,8 +187,8 @@ if(!isset($_SESSION['valid_user'])){
       <section class="am-panel am-panel-default">
         <div class="am-panel-hd">项目目录</div>
         <ul class="am-list blog-list">
-          <li><a href="#">PresentWeb:HTML5展示工具</a></li>
-          <li><a href="#">SCU_ScoreCounter:四川大学在线成绩查询</a></li>
+          <li><a href="https://coding.net/u/seanchain/p/PresentWeb/git">PresentWeb:HTML5展示工具</a></li>
+          <li><a href="https://coding.net/u/seanchain/p/SCU_ScoreCounter/git">SCU_ScoreCounter:四川大学在线成绩查询</a></li>
         </ul>
       </section>
     </div>
