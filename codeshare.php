@@ -78,7 +78,7 @@ if(!isset($_SESSION['valid_user'])){
 
     <div class="am-collapse am-topbar-collapse am-sans-serif" id="collapse-head">
       <ul class="am-nav am-nav-pills am-topbar-nav">
-        <li onclick="change()"><a href="#">首页</a></li>
+        <li onclick="change()"><a href="./index.php">首页</a></li>
         <li onclick="change()"><a href="./blog">博客</a></li>
         <li class="am-active" onclick="change()"><a href="#">代码分享</a></li>
         <li class="am-dropdown" data-am-dropdown onclick="change()">
